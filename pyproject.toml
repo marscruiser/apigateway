@@ -4,15 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "apigateway"
-version = "1.2.0"
+version = "1.0.0"
 description = "API Gateway"
 authors = [{ name = "PrabhBirJ" }]
 requires-python = ">=3.11"
 dependencies = [
-    "django>=5.2.5",
-    "fastapi>=0.116.1",
-    "flask>=3.1.2",
-    "pydantic>=2.11.7",
+    "pydantic>=2.11.7"
 ]
 
 [project.optional-dependencies]
